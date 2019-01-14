@@ -1,0 +1,5 @@
+roi:
+	g++ -o roi_avg roi_avg.cpp -I. -std=c++11
+
+clean:
+	rm -f roi_avg
